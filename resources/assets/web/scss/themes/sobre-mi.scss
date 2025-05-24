@@ -1,0 +1,121 @@
+.sobre-mi-section{
+    .container{
+        max-width: 1034px;
+
+        .info-header{
+            margin-top: 51px;
+
+            .imagen{
+                width: 100%;
+                aspect-ratio: 1/1;
+                border-radius: 40px;
+                overflow: hidden;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .text-about-me{
+                margin-left: 3%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+                padding: 30px 0 25px;
+                .name{
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+                .title{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #8F8F8F;
+                }
+                .subtitle{
+                    font-size: 16px;
+                    span{
+                        font-weight: 600;
+                    }
+                }
+                .cv-button{
+                    margin-left: -80px;
+                    margin-top: 15px;
+
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 40px;
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: white;
+                        background-color: black;
+                        height: 57px;
+                        width: 213px;
+                        border: 3px solid #fff;
+
+                        .icono{
+                            color: white;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenido-sobre-mi{
+            .item{
+                box-shadow: 0px 4px 40px 0px rgba(0,0,0,0.1);
+                padding: 36px;
+                border-radius: 40px;
+                margin-top: 29px;
+
+                &.time{
+                    text-align: center;
+                    .title{
+                        margin: 10px 0 5px;
+                        font-weight: 500;
+                        color: #949494;
+                    }
+                    .time{
+                        font-weight: 500;
+                    }
+                }
+
+                &.goals{
+                    height: 90%;
+                    .title{
+                        font-size: 30px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                    ul{
+                        list-style-type: none;
+                        padding-left: 0;margin-bottom: 0;
+                        li{
+                            margin-top: 15px;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #9E9E9E;
+                        }
+                    }
+
+                    .tecnologias{
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 733px;
+                        margin: 20px auto 0;
+                        .icono{
+                            font-size: 45px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
