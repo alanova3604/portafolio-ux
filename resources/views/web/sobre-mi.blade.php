@@ -19,12 +19,12 @@
         <div class="container">
             <div class="info-header">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-12 col-sm-6 col-md-5 d-flex align-items-center">
                         <div class="imagen">
                             <img src="/assets/imagenes/about-me-photo.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-12 col-sm-6 col-md-7">
                         <div class="text-about-me">
                             <div class="name">
                                 Alan Valdez
@@ -47,21 +47,21 @@
             </div>
             <div class="contenido-sobre-mi">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="item time">
                             <img src="/assets/imagenes/nubir.png" alt="">
                             <div class="title">Product Design Lead</div>
                             <div class="time">2023 - Actualidad</div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="item time">
                             <img src="/assets/imagenes/unitec.png" alt="">
                             <div class="title">Lic. Diseño Animacion y Arte Digital</div>
                             <div class="time">2020 - 2024</div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="item goals">
                             <div class="title">Logros</div>
                             <ul>
@@ -71,7 +71,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="item goals">
                             <div class="title">Design Skills</div>
                             <ul>

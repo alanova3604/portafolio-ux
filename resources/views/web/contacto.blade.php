@@ -16,23 +16,23 @@
     <div class="contacto-section">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="d-none d-lg-block col-lg-5">
                     <div class="imagen">
                         <img src="/assets/imagenes/placeholder.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-lg-7">
                     <div class="form">
                         <form action="">
                             <div class="row">
-                                <div class="col-6 pe-2">
+                                <div class="col-12 col-md-6 pe-md-2">
                                     <div class="form-control">
                                         <input placeholder="Nombre" type="text">
                                     </div>
                                 </div>
-                                <div class="col-6 ps-2">
+                                <div class="col-12 col-md-6 ps-md-2">
                                     <div class="form-control">
-                                        <input placeholder="Correo" type="text">
+                                        <input placeholder="Correo" type="email">
                                     </div>
                                 </div>
                                 <div class="col-12">

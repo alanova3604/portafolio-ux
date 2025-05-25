@@ -16,7 +16,7 @@
     <div class="proyectos-list">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-xl-4">
                     <a href="">
                         <div class="item">
                             <div class="imagen">
@@ -29,7 +29,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-xl-4">
                     <a href="">
                         <div class="item">
                             <div class="imagen">
@@ -42,7 +42,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-xl-4">
                     <a href="">
                         <div class="item">
                             <div class="imagen">

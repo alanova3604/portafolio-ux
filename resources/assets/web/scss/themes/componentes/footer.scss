@@ -1,14 +1,38 @@
 footer{
-    background-color: black;
+    background-color: #F6F6F6;
     color: white;
     text-align: center;
-    padding: 20px;
-    .name{
-        font-weight: 500;
-        margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    @media (max-width: 767px) {
+        position: initial;
+        margin-top: 25px;
     }
-    .copy{
-        font-size: 12px;
-        font-weight: 500;
+    .footer-area{
+        display: flex;
+        color: #A9A9A9;
+        justify-content: space-between;
+        height: 56px;
+        align-items: center;
+        @media (max-width: 767px) {
+            flex-direction: column-reverse;
+            padding: 15px;
+            height: inherit;
+        }
+
+        .text{
+            font-weight: 500;
+            margin-bottom: 12px;
+            @media (max-width: 767px) {
+                font-size: 11px;
+            }
+        }
+
+        .redes{
+            .icono{
+                color: #A9A9A9;
+            }
+        }
     }
 }
